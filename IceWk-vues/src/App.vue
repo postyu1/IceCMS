@@ -12,6 +12,6 @@ export default {
 </script>
 
 <style>
-  @import "./static/mycss/top.css";
-  @import "./static/mycss/body.css";
+  /* @import "./static/mycss/top.css"; */
+  /* @import "./static/mycss/body.css"; */
 </style>
