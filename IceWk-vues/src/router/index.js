@@ -13,7 +13,7 @@ import Layout from '@/layout'
  */
 export const constantRoutes = [
   {
-    path: '/',
+    path: '/home',
     component: () => import('@/page/Home'),
     hidden: true
   },

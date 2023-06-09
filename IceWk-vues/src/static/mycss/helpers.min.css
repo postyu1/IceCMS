@@ -735,56 +735,8 @@ header:not(.top-nav-boxed) .has-breaking .breaking-news-nav {
     }
 }
 
-.breaking-news-nav li {
-    padding: 0px;
-    margin: 6px 0 6px 7px;
-    float: left;
-    cursor: pointer;
-    height: 21px;
-    width: 21px;
-    display: block;
-    line-height: 17px;
-    text-align: center;
-    border-radius: 2px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    transition: 0.3s
-}
 
-.box-dark-skin .breaking-news-nav li,
-.top-nav-dark .breaking-news-nav li {
-    border-color: rgba(255, 255, 255, 0.1)
-}
 
-.breaking-news-nav li:after {
-    opacity: 0.8;
-    display: inline-block;
-    content: "\f04c";
-}
-
-.breaking-news-nav li:hover {
-    background-color: #f05555;
-    border-color: #f05555;
-    color: #ffffff
-}
-
-.breaking-news-nav li:hover:after {
-    opacity: 1
-}
-
-.breaking-news-nav li.jnt-prev:after {
-    content: "\f104"
-}
-
-.breaking-news-nav li.jnt-next:after {
-    content: "\f106"
-}
-
-.up-down-controls .breaking-news-nav li:after {
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-    margin-left: 5px
-}
 
 .ticker-dir-left .ticker-content,
 .ticker-dir-left .ticker {

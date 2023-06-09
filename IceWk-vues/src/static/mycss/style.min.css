@@ -4019,7 +4019,7 @@ div.post-element div.entry-content img {
     overflow: hidden
 }
 
-.slider-area .tie-media-icon {
+.slider-area .iconplay {
     position: relative;
     float: right;
     margin: -9px -5px 0 10px;
@@ -8415,9 +8415,6 @@ a.go-to-top-button.show-top-button {
     color: #ffffff
 }
 
-.dark-skin .subscribe-widget .newsletter-icon,.dark-skin .subscribe-widget form:before {
-    color: rgba(255,255,255,0.3)
-}
 
 .dark-skin .magazine1 .entry-header-outer+.mag-box {
     border-top: 1px solid rgba(255,255,255,0.1)
@@ -8574,4 +8571,81 @@ a.go-to-top-button.show-top-button {
 
 .dark-skin .mag-box .breaking,.dark-skin .mag-box .ticker-content,.dark-skin .mag-box .ticker-swipe,.box-dark-skin .breaking,.box-dark-skin .ticker-content,.box-dark-skin .ticker-swipe {
     background-color: #27292d
+}
+
+
+
+.slider-area .iconplay {
+    position: relative;
+    float: right;
+    margin: -9px -5px 0 10px;
+    height: 40px;
+    width: 40px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 32px;
+    line-height: 32px;
+    z-index: 8;
+    pointer-events: none
+}
+.posts-list-container .tie-standard .iconshandian {
+    position: absolute;
+    margin: 0 !important;
+    left: 10px;
+    top: -10px;
+    width: 35px;
+    height: 35px;
+    background: #F64E4E;
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thumb-content .iconshandian{
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    font-size: 12px;
+    background: #F64E4E;
+    color: #ffffff;
+    border-radius: 100%;
+    z-index: 4;
+    display: inline-block;
+    margin-right: 7px;
+}
+.social-icons-item .counter-icon{
+    float: left;
+    color: #ffffff !important;
+    background-color: #2c2f34;
+    width: 54px;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 2px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.subscribe-widget .iconyouxiang{
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    font-size: 18px;
+    color: rgba(255,255,255,0.3);
+}
+.breaking-news-nav li {
+    padding-top: 2px;
+    margin: 7px 0 6px 7px;
+    float: left;
+    cursor: pointer;
+    height: 21px;
+    width: 21px;
+    display: block;
+    line-height: 17px;
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: 0.3s
 }

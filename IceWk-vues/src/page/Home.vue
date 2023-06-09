@@ -86,14 +86,14 @@
                       <ul class="components">
                         <li class="search-compact-icon menu-item custom-menu-link">
                           <a href="#" class="tie-search-trigger">
-                            <span aria-hidden="true" class="tie-icon-search tie-search-icon"></span>
+                            <span aria-hidden="true" class="iconfont iconsearch"></span>
                             <span class="screen-reader-text">Search for</span>
                           </a>
                         </li>
                         <li class="shopping-cart-icon menu-item custom-menu-link">
                           <a href="cart/" title="View your shopping cart">
                             <span class="shooping-cart-counter menu-counter-bubble-outer"></span>
-                            <span aria-hidden="true" class="tie-icon-shopping-bag"></span>
+                            <span aria-hidden="true" class="iconfont iconshoppingbag"></span>
                             <span class="screen-reader-text">View your shopping cart</span>
                           </a>
                           <div class="components-sub-menu comp-sub-menu">
@@ -121,7 +121,25 @@
                         <span aria-hidden="true" class="tie-icon-bolt breaking-icon"></span>
                         <span class="breaking-title-text">Breaking News</span>
                       </span>
-                      <ul id="breaking-news-in-header" data-type="reveal" data-arrows="true" class="breaking-news">
+                      <div id="ticker-wrapper-1686315009854" class="ticker-wrapper has-js ticker-dir-left">
+                        <div id="ticker-1686315009854" class="ticker">
+                          <p id="ticker-content-1686315009854" class="ticker-content" style="opacity: 1; display: block;"> 
+                            <a href="2018/01/20/consumers-beware-not-all-cryptocurrencies-are-the-same/">Consumers beware – not all cryptocurrencies are the same</a> 
+                          </p>
+                          <div id="ticker-swipe-1686315009854" class="ticker-swipe" style="margin-left: 26.8px;">
+                            <span style=""><!-- --></span>
+                          </div>
+                        </div>
+                        <ul id="ticker-controls-1686315009854" class="breaking-news-nav slider-arrow-nav ">
+                          <li class="">
+                            <span class="iconfont iconarrow-left"></span>
+                          </li>
+                          <li class="">
+                            <span class="iconfont iconarrow-right"></span>
+                          </li>
+                        </ul>
+                      </div>
+                      <!-- <ul id="breaking-news-in-header" data-type="reveal" data-arrows="true" class="breaking-news">
                         <li class="news-item">
                           <a href="2018/01/20/what-is-tron-cryptocurrency-aims-to-change-internet/">What Is Tron?
                             Cryptocurrency Aims To Change Internet</a>
@@ -153,7 +171,7 @@
                           <a href="2018/01/20/lots-of-optimism-at-the-miami-bitcoin-conference-this-week/">Lots of
                             Optimism at the Miami Bitcoin Conference This Week</a>
                         </li>
-                      </ul>
+                      </ul> -->
                     </div>
                   </div>
                   <div class="tie-alignright">
@@ -203,7 +221,7 @@
                                       class="all-over-thumb-link"
                                       aria-label="New Research: Laundering of Illicit Funds Less than 1% of Bitcoin Transactions"></a>
                                     <div class="thumb-overlay">
-                                      <span class="tie-icon tie-media-icon"></span>
+                                      <span class="iconfont iconplay"></span>
                                       <span class="post-cat-wrap">
                                         <a class="post-cat tie-cat-8" href="category/buying-guides/">Buying
                                           Guides</a>
@@ -230,7 +248,7 @@
                                       class="all-over-thumb-link"
                                       aria-label="The Fundamental Conflict At The Heart Of Bitcoin"></a>
                                     <div class="thumb-overlay">
-                                      <span class="tie-icon tie-media-icon"></span>
+                                      <span class="iconfont iconplay"></span>
                                       <span class="post-cat-wrap">
                                         <a class="post-cat tie-cat-2" href="category/mining-guides/">Mining
                                           Guides</a>
@@ -255,7 +273,7 @@
                                       class="all-over-thumb-link"
                                       aria-label="Venezuela to Issue Petro Cryptocurrency through Token Sale, Plans Tax Deals to Bolster Adoption"></a>
                                     <div class="thumb-overlay">
-                                      <span class="tie-icon tie-media-icon"></span>
+                                      <span class="iconfont iconplay"></span>
                                       <span class="post-cat-wrap">
                                         <a class="post-cat tie-cat-52" href="category/news/">News</a>
                                       </span>
@@ -281,7 +299,7 @@
                                       class="all-over-thumb-link"
                                       aria-label="Bitcoin, Ethereum and Other Cryptocurrencies Gain Momentum after Wednesday’s Debacle"></a>
                                     <div class="thumb-overlay">
-                                      <span class="tie-icon tie-media-icon"></span>
+                                      <span class="iconfont iconplay"></span>
                                       <span class="post-cat-wrap">
                                         <a class="post-cat tie-cat-8" href="category/buying-guides/">Buying
                                           Guides</a>
@@ -301,23 +319,21 @@
                                       </div>
                                     </div>
                                   </div>
-                                  <div
-                                    style="background-image: url(https://jannah.tielabs.com/cryptocurrency/wp-content/uploads/sites/51/2018/01/olga-delawrence-386839-780x470.jpg)"
+                                  <div style="background-image: url(https://jannah.tielabs.com/cryptocurrency/wp-content/uploads/sites/51/2018/01/olga-delawrence-386839-780x470.jpg)"
                                     class="grid-item slide-id-360 tie-slide-5 is-trending tie-standard">
                                     <a href="2018/01/20/consumers-beware-not-all-cryptocurrencies-are-the-same/"
                                       class="all-over-thumb-link"
                                       aria-label="Consumers beware – not all cryptocurrencies are the same"></a>
                                     <div class="thumb-overlay">
-                                      <span class="tie-icon tie-media-icon"></span>
+                                      <span class="iconfont iconplay"></span>
                                       <span class="post-cat-wrap">
                                         <a class="post-cat tie-cat-8" href="category/buying-guides/">Buying
                                           Guides</a>
                                       </span>
                                       <div class="thumb-content">
                                         <div class="thumb-meta">
-                                          <span class="trending-post tie-icon-bolt " aria-hidden="true"></span>
-                                          <span class="date meta-item tie-icon">January
-                                            20, 2018</span>
+                                          <span class="iconfont iconshandian"></span>
+                                          <span class="date meta-item tie-icon">January 20, 2018</span>
                                         </div>
                                         <h2 class="thumb-title">
                                           <a href="2018/01/20/consumers-beware-not-all-cryptocurrencies-are-the-same/">Consumers
@@ -361,7 +377,7 @@
                               <a aria-label="Consumers beware – not all cryptocurrencies are the same"
                                 href="2018/01/20/consumers-beware-not-all-cryptocurrencies-are-the-same/"
                                 class="post-thumb">
-                                <span class="trending-post tie-icon-bolt trending-lg" aria-hidden="true"></span>
+                                <span class="iconfont iconshandian"></span>
                                 <span class="post-cat-wrap">
                                   <span class="post-cat tie-cat-8">Buying Guides</span>
                                 </span>
@@ -397,11 +413,11 @@
                               </div>
                             </li>
                             <li
-                              class="post-item post-359 post type-post status-publish format-standard has-post-thumbnail category-millennial-money category-news is-trending tie-standard">
+                              class="post-item post type-post status-publish format-standard has-post-thumbnail category-millennial-money category-news is-trending tie-standard">
                               <a aria-label="Lots of Optimism at the Miami Bitcoin Conference This Week"
                                 href="2018/01/20/lots-of-optimism-at-the-miami-bitcoin-conference-this-week/"
                                 class="post-thumb">
-                                <span class="trending-post tie-icon-bolt trending-lg" aria-hidden="true"></span>
+                                <span class="iconfont iconshandian"></span>
                                 <span class="post-cat-wrap">
                                   <span class="post-cat tie-cat-6">Millennial Money</span>
                                 </span>
@@ -441,7 +457,7 @@
                               class="post-item post-358 post type-post status-publish format-standard has-post-thumbnail category-buying-guides category-mining-guides is-trending tie-standard">
                               <a aria-label="GDAX Will Launch BCH-EUR Trading on January 24"
                                 href="2018/01/20/gdax-will-launch-bch-eur-trading-on-january-24/" class="post-thumb">
-                                <span class="trending-post tie-icon-bolt trending-lg" aria-hidden="true"></span>
+                                <span class="iconfont iconshandian"></span>
                                 <span class="post-cat-wrap">
                                   <span class="post-cat tie-cat-8">Buying Guides</span>
                                 </span>
@@ -702,7 +718,7 @@
                                     <div class="thumb-overlay">
                                       <div class="thumb-content">
                                         <div class="thumb-meta">
-                                          <span class="trending-post tie-icon-bolt " aria-hidden="true"></span>
+                                          </span><span class="iconfont iconshandian"></span>
                                           <span class="date meta-item tie-icon">January 20, 2018</span>
                                         </div>
                                         <h2 class="thumb-title"><a
@@ -723,7 +739,7 @@
                                     <div class="thumb-overlay">
                                       <div class="thumb-content">
                                         <div class="thumb-meta">
-                                          <span class="trending-post tie-icon-bolt " aria-hidden="true"></span>
+                                          <span class="iconfont iconshandian"></span>
                                           <span class="date meta-item tie-icon">January 20, 2018</span>
                                         </div>
                                         <h2 class="thumb-title"><a
@@ -1859,7 +1875,7 @@
                           <li class="social-icons-item">
                             <a class="facebook-social-icon" href="//www.facebook.com/WordPress" rel="nofollow noopener"
                               target="_blank">
-                              <span class="counter-icon tie-icon-facebook"></span>
+                              <span class="iconfont iconfacebook counter-icon"></span>
                               <span class="followers">
                                 <span class="followers-num">1.3M</span>
                                 <span class="followers-name">Fans</span>
@@ -1869,7 +1885,7 @@
                           <li class="social-icons-item">
                             <a class="twitter-social-icon" href="//twitter.com/tielabs" rel="nofollow noopener"
                               target="_blank">
-                              <span class="counter-icon tie-icon-twitter"></span>
+                              <span class="iconfont icontuite counter-icon"></span>
                               <span class="followers">
                                 <span class="followers-num">0</span>
                                 <span class="followers-name">Followers</span>
@@ -1879,7 +1895,7 @@
                           <li class="social-icons-item">
                             <a class="youtube-social-icon" href="//youtube.com/user/TEAMMESAI" rel="nofollow noopener"
                               target="_blank">
-                              <span class="counter-icon tie-icon-youtube"></span>
+                              <span class="iconfont iconyoutube counter-icon"></span>
                               <span class="followers">
                                 <span class="followers-num">50,200</span>
                                 <span class="followers-name">Followers</span>
@@ -1889,7 +1905,7 @@
                           <li class="social-icons-item">
                             <a class="instagram-social-icon" href="//instagram.com/tiedemos" rel="nofollow noopener"
                               target="_blank">
-                              <span class="counter-icon tie-icon-instagram"></span>
+                              <span class="iconfont icon22 counter-icon"></span>
                               <span class="followers">
                                 <span class="followers-num">4,561</span>
                                 <span class="followers-name">Followers</span>
@@ -2171,24 +2187,26 @@
                           <ul class="social-icons">
                             <li class="social-icons-item">
                               <a class="social-link facebook-social-icon" rel="external noopener nofollow" target="_blank" href="#">
-                                <span class="tie-social-icon tie-icon-facebook"></span><span class="screen-reader-text">Facebook</span>
+                                <!-- <span class="tie-social-icon tie-icon-facebook"></span> -->
+                                <span class="iconfont iconfacebook"></span>
+                                <span class="screen-reader-text">Facebook</span>
                               </a>
                             </li>
                             <li class="social-icons-item">
                               <a class="social-link twitter-social-icon" rel="external noopener nofollow" target="_blank" href="#">
-                                <span class="tie-social-icon tie-icon-twitter"></span>
+                                <span class="iconfont icontuite"></span>
                                 <span class="screen-reader-text">Twitter</span>
                               </a>
                             </li>
                             <li class="social-icons-item">
                               <a class="social-link dribbble-social-icon" rel="external noopener nofollow" target="_blank" href="#">
-                                <span class="tie-social-icon tie-icon-dribbble"></span>
+                                <span class="iconfont iconbasketball"></span>
                                 <span class="screen-reader-text">Dribbble</span>
                               </a>
                             </li>
                             <li class="social-icons-item">
                               <a class="social-link youtube-social-icon" rel="external noopener nofollow" target="_blank" href="#">
-                                <span class="tie-social-icon tie-icon-youtube"></span>
+                                <span class="iconfont iconyoutube"></span>
                                 <span class="screen-reader-text">YouTube</span>
                               </a>
                             </li>
@@ -2263,6 +2281,7 @@
                           <div class="subscribe-widget-content"> Subscribe to our mailing list to receive new updates and special offers </div>
                           <div id="mc_embed_signup-tie-newsletter-2"> 
                             <form action="//mo3aser.us5.list-manage.com/subscribe/post?u=147e71cd86cb2e17820db601a&amp;id=7bfc095aea" method="post" id="mc-embedded-subscribe-form-tie-newsletter-2" name="mc-embedded-subscribe-form" class="subscribe-form validate" target="_blank" novalidate="">
+                              <span class="iconfont iconyouxiang"></span>
                               <div class="mc-field-group">
                                 <label class="screen-reader-text" for="mce-EMAIL-tie-newsletter-2">Enter your Email address</label>
                                 <input type="email" value="" id="mce-EMAIL-tie-newsletter-2" placeholder="Enter your Email address" name="EMAIL" class="subscribe-input required email">
@@ -2381,7 +2400,7 @@
       </a>
       <a target="_blank" href="//tielabs.com/buy/jannah?utm_source=demos&utm_campaign=jannah&utm_content=cryptocurrency"
         rel="nofollow noopener" id="demos-buynow-btn" class="panel-btn">
-        <span class="fa fa-shopping-basket"></span>
+        <span class="iconfont iconshopping-basket"></span>
         <p>Buy Now!</p>
       </a>
     </div>
@@ -2928,462 +2947,5 @@ export default {
 @import "../static/mycss/style_1.css";
 @import "../static/mycss/widgets.min.css";
 @import "../static/mycss/woocommerce.min.css";
-</style>
-<style scoped>
-.delayImg {
-  height: 100px;
-  width: 145px;
-  border-radius: 8px;
-}
-
-.delayImgss {
-  height: 128px;
-  width: 100%;
-  border-radius: 8px;
-}
-</style>
-
-
-<style scoped>
-.white1 {
-  background-color: rgb(255, 255, 255);
-  z-index: -1;
-}
-
-.index1 {
-  z-index: 555;
-}
-
-.index {
-  z-index: -1;
-}
-
-.outsection {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.Thecarousel {
-  padding-left: 15px;
-  padding-right: 15px;
-  text-align: center;
-  width: 1435px;
-}
-
-.el-carousel__item h3 {
-  color: #475669;
-  font-size: 18px;
-  opacity: 0.75;
-  line-height: 300px;
-  margin: 0;
-}
-
-.el-carousel__item:nth-child(2n) {
-  background-color: #99a9bf;
-}
-
-.el-carousel__item:nth-child(2n + 1) {
-  background-color: #d3dce6;
-}
-</style>
-<style lang="scss" scoped>
-.delayImg {
-  ::v-deep {
-    .el-image__inner {
-      border-radius: 8px;
-    }
-  }
-}
-
-.delayImgss {
-  ::v-deep {
-    .el-image__inner {
-      border-radius: 8px;
-    }
-  }
-}
-
-.delay-3 {
-  ::v-deep {
-    .el-image__inner {
-      width: 224px;
-      height: 128px;
-      border-radius: 8px 8px 0px 0px;
-    }
-  }
-}
-
-.delayImgs {
-  width: 224px;
-  height: 128px;
-  border-radius: 8px 8px 0px 0px;
-}
-
-.h-150 {
-  margin-top: -20px;
-  margin-bottom: -55px;
-  height: 150px !important;
-}
-
-.backimg {
-  background-image: url("../static/image/home/homeimg.png");
-}
-
-.search-header {
-  position: relative;
-  z-index: 1;
-  padding: 100px 0;
-}
-
-.search-header::after {
-  position: absolute;
-  left: 0;
-  top: 0;
-  content: "";
-  height: 100%;
-  background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%) repeat scroll 0 0;
-  width: 100%;
-  z-index: -1;
-}
-
-.containers {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 20px;
-}
-
-.containers {
-  width: 1170px;
-  padding: 0;
-  // width: 100%;
-  //     padding-right: 15px;
-  //     padding-left: 15px;
-  //     margin-right: auto;
-  //     margin-left: auto;
-}
-
-.bg-fixed {
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.index-special {
-
-  margin-top: 35px;
-}
-
-.search-header .hero-box h2 {
-  font-size: 44px;
-  font-weight: 600;
-  line-height: 1.3;
-  margin-top: -8px;
-  margin-bottom: 25px;
-  letter-spacing: 0.6px;
-}
-
-.text-light h2 {
-  color: #ffffff;
-}
-
-.col-md-offset-2 {
-  margin-left: 16.66666667%;
-}
-
-.col-md-8 {
-  width: 66.66666667%;
-}
-
-.col-md-8 {
-  float: left;
-  position: relative;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-.hero-box ul {
-  margin-bottom: -5px;
-}
-
-.hero-box ul li {
-  color: #ffffff;
-  display: inline-block;
-  text-transform: capitalize;
-  font-family: 'Poppins', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  letter-spacing: 0.6px;
-  margin: 0 7px;
-  padding: 0 7px;
-  position: relative;
-  z-index: 1;
-}
-
-// .hero-box ul li::before {
-// position: absolute;
-// right: -12px;
-// top: 12px;
-// content: "";
-// height: 7px;
-// width: 7px;
-// background: #ffffff;
-// -webkit-border-radius: 50%;
-// -moz-border-radius: 50%;
-// border-radius: 50%;
-// }
-.search-box {
-  position: relative;
-  z-index: 1;
-  padding-top: 25px;
-  margin-top: 20px;
-}
-
-.search-box::after {
-  position: absolute;
-  left: 0;
-  top: 0;
-  content: "";
-  height: 1px;
-  width: 100%;
-  background: rgba(255, 255, 255, 0.2);
-  z-index: -1;
-}
-
-.search-box form {
-  position: relative;
-  z-index: 1;
-  max-width: 70%;
-  margin: auto;
-}
-
-.search-box form input {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  min-height: 60px;
-}
-
-.form-control {
-  display: block;
-  width: 100%;
-  height: 34px;
-  padding: 6px 12px;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #555;
-  background-color: #fff;
-  background-image: none;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
-  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-}
-
-.search-box form button {
-  position: absolute;
-  right: 5px;
-  top: 5px;
-  min-height: 50px;
-  min-width: 50px;
-  background: #0078ff;
-  border: none;
-  color: #ffffff;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-}
-
-.fas {
-  font-weight: 900;
-}
-
-.heading-tertiary-list {
-  font-size: 15px;
-  line-height: 23px;
-  font-weight: 670;
-  text-overflow: -o-ellipsis-lastline;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
-  -webkit-box-orient: vertical;
-}
-
-.card-meta {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border-bottom: 1px solid #dcdcdc;
-  padding-bottom: 1px;
-  margin-bottom: 3px;
-}
-
-.post-author {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.meta-item {
-  margin-right: 18px;
-  position: relative;
-  font-size: 14px;
-}
-
-.author-name {
-  font-size: 12px;
-  font-weight: 600;
-  font-family: "Advent Pro", sans-serif;
-  color: #222;
-}
-
-.value {
-  font-size: 15px;
-  font-weight: 700;
-  line-height: 10px;
-  letter-spacing: 0.0015em;
-  color: #50A0FF;
-}
-
-// .button {
-//   display: flex;
-//   font-size: 16px;
-//   font-weight: 700;
-//   font-family: "Titillium Web", sans-serif;
-//   flex-direction: row;
-//   flex-wrap: nowrap;
-//   align-content: center;
-//   justify-content: space-between;
-//   align-items: center;
-// }
-
-.meta-item:not(:last-child)::after {
-  content: "";
-  width: 5px;
-  height: 5px;
-  background-color: #177ef7;
-  border-radius: 50%;
-  position: absolute;
-  right: -15px;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.delay-3 {
-  ::v-deep {
-    .el-image__inner {
-      border-radius: 8px 8px 0px 0px;
-    }
-  }
-}
-
-.app-content-main .app-content-bottom {
-  border-radius: 15px;
-}
-
-.macwk-app__body {
-  padding: 13px 9px 5px;
-}
-</style>
-<style  scoped>
-.gaosiImg {
-  filter: blur(20px) opacity(70%) brightness(110%);
-  transition: .3s;
-  ;
-  z-index: 8
-}
-
-.dingweiImg,
-.recommendDingweiImg {
-  position: absolute;
-  top: 15px !important;
-  left: 20px !important
-}
-
-.img72,
-.imgQueXing3 {
-  width: 72px;
-  height: 72px;
-}
-
-.margin-top-90 {
-  margin-top: 90px;
-}
-
-.text-block {
-  color: #3c4248;
-}
-
-.text-bold {
-  font-weight: 700;
-}
-
-.size-18 {
-  font-size: 18px;
-}
-
-.margin-top {
-  margin-top: 10px;
-}
-
-.cursor {
-  cursor: pointer;
-}
-
-.padding-xl {
-  padding: 20px;
-}
-
-.text-B6BABF {
-  color: #b6babf;
-}
-
-.size-14 {
-  font-size: 14px;
-}
-
-.margin-top {
-  margin-top: 10px;
-}
-
-.limitText {
-  max-width: 180px;
-  height: 20px;
-  overflow: hidden;
-}
-
-.flex-row {
-  display: flex;
-  flex-direction: row !important;
-}
-
-.size-12 {
-  font-size: 12px;
-}
-
-.margin-top2 {
-  margin-top: 20px;
-}
+@import "../assets/font/iconfont.css";
 </style>
