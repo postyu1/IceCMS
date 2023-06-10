@@ -2,6 +2,9 @@ package com.ttice.icewkment.Util;
 
 import com.ttice.icewkment.configuration.ApplicationConfig;
 import com.ttice.icewkment.configuration.ServerConfig;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
@@ -11,8 +14,11 @@ import java.util.UUID;
 /**
  * 文件上传工具类
  */
+@Component
 public class FileUtils {
 
+    @Value("${myhost}")
+    private String myHost;
     /**
      * 上传文件
      * @param file
@@ -39,9 +45,9 @@ public class FileUtils {
             return "";
         }
         //组装为实际地址，非本地地址
-        ServerConfig serverConfig = new ServerConfig();
-        String url = serverConfig.getUrl();
-        return url + "/logistics/" + originalFilename;
+//        ServerConfig serverConfig = new ServerConfig();
+//        String url = serverConfig.getUrl();
+        return myHost + "/logistics/" + originalFilename;
     }
 
 }

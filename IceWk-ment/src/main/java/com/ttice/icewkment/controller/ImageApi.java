@@ -28,6 +28,10 @@ public class ImageApi {
     @Autowired
     private SettingMapper settingMapper;
 
+    @Autowired
+    private FileUtils fileUtils;
+
+
     @ApiOperation(value = "上传图片(添加文字水印)")
     @ApiImplicitParams({
             @ApiImplicitParam(name = "editormd-image-file",value = "图片Formate",required = true),
@@ -120,10 +124,9 @@ public class ImageApi {
         return jsonObject;
     }
 
-    public static String localUpImg(MultipartFile localFile){
+    public String localUpImg(MultipartFile localFile){
         // 本地存储图片，需要配置资源映射为虚拟路径
         if(localFile != null) {
-            FileUtils fileUtils = new FileUtils();
             String path = fileUtils.uploadFile(localFile);
             return path;
         }
